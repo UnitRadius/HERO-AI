@@ -2304,6 +2304,12 @@ Draw6Glyphs
 	lda	(Ptr_HeroColorLow),y
 	sta	COLUP0
 	sta	COLUP1
+	lda	Ldc6c,x		; icon-count mask for PF2 (restored from original ROM)
+	sta	PF2
+	lda	Ldc6a,x		; icon-count mask for PF0
+	sta	PF0
+	lda	Ldc77,x		; icon-count mask for PF1
+	sta	PF1
 	dey
 	bpl	Draw6Glyphs
 	sta	WSYNC
