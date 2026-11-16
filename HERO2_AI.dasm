@@ -4394,192 +4394,192 @@ TopObjectAndRoomLinkData
 ;	lowest bit indicates left or right side room exit
 
 	;level 1 / l=2
-.byte (36 * 4),(36 * 4)
+	.byte (36 * 4),(36 * 4)
         
         ;level 2 / l=4
-.byte (36 * 4),(36 * 4),(36 * 4),(36 * 4)
+	.byte (36 * 4),(36 * 4),(36 * 4),(36 * 4)
         
         ;level 3 / l=6
-.byte (36 * 4),(20 * 4),(36 * 4),(26 * 4),(36 * 4),(36 * 4)
+	.byte (36 * 4),(20 * 4),(36 * 4),(26 * 4),(36 * 4),(36 * 4)
         
         ;level 4 / l=8
-.byte (36 * 4),(20 * 4),(5 * 4),(9 * 4),(6 * 4),(20 * 4),(33 * 4),(36 * 4)
+	.byte (36 * 4),(20 * 4),(5 * 4),(9 * 4),(6 * 4),(20 * 4),(33 * 4),(36 * 4)
         
         ;level 5 / l=8
-.byte (36 * 4),(20 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(32 * 4),(19 * 4),(32 * 4),(20 * 4),(36 * 4)
+	.byte (36 * 4),(20 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(32 * 4),(19 * 4),(32 * 4),(20 * 4),(36 * 4)
         
         ;level 6 / l=10
-.byte (36 * 4),(20 * 4),(33 * 4),(20 * 4),(24 * 4),(13 * 4),(28 * 4),(6 * 4),(26 * 4),(36 * 4)
+	.byte (36 * 4),(20 * 4),(33 * 4),(20 * 4),(24 * 4),(13 * 4),(28 * 4),(6 * 4),(26 * 4),(36 * 4)
         
         ;level 7 / l=12
-.byte (36 * 4),(20 * 4),(6 * 4),(19 * 4),(25 * 4),(32 * 4),(10 * 4),(7 * 4),(20 * 4),(30 * 4),(16 * 4),(36 * 4)
+	.byte (36 * 4),(20 * 4),(6 * 4),(19 * 4),(25 * 4),(32 * 4),(10 * 4),(7 * 4),(20 * 4),(30 * 4),(16 * 4),(36 * 4)
         
         ;level 8 / l=14
-.byte (36 * 4),(20 * 4),(26 * 4),(20 * 4),(26 * 4),(30 * 4),(20 * 4),(6 * 4),(26 * 4),(12 * 4),(14 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
+	.byte (36 * 4),(20 * 4),(26 * 4),(20 * 4),(26 * 4),(30 * 4),(20 * 4),(6 * 4),(26 * 4),(12 * 4),(14 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
         
         ;level 9 / l=16
-.byte (36 * 4),(20 * 4),(32 * 4),(32 * 4),(32 * 4),(32 * 4),(32 * 4),(16 * 4),(6 * 4),(20 * 4),(32 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4)
+	.byte (36 * 4),(20 * 4),(32 * 4),(32 * 4),(32 * 4),(32 * 4),(32 * 4),(16 * 4),(6 * 4),(20 * 4),(32 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4)
         
         ;level 10 / l=16
-.byte (36 * 4),(20 * 4),(32 * 4),(19 * 4),(19 * 4),(7 * 4),(10 * 4),(33 * 4),(34 * 4),(34 * 4),(32 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
+	.byte (36 * 4),(20 * 4),(32 * 4),(19 * 4),(19 * 4),(7 * 4),(10 * 4),(33 * 4),(34 * 4),(34 * 4),(32 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
         
         ;level 11 / l=16
-.byte (36 * 4),(20 * 4),(26 * 4),(33 * 4),(20 * 4),(11 * 4),(33 * 4),(26 * 4),(34 * 4),(34 * 4),(26 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4)
+	.byte (36 * 4),(20 * 4),(26 * 4),(33 * 4),(20 * 4),(11 * 4),(33 * 4),(26 * 4),(34 * 4),(34 * 4),(26 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4)
         
         ;level 12 / l=16
-.byte OBJ_HIDDEN_93,(20 * 4),(7 * 4),(36 * 4),(28 * 4),(20 * 4),(34 * 4),(32 * 4),(36 * 4),(26 * 4),(26 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
+	.byte OBJ_HIDDEN_93,(20 * 4),(7 * 4),(36 * 4),(28 * 4),(20 * 4),(34 * 4),(32 * 4),(36 * 4),(26 * 4),(26 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
         
         ;level 13 / l=16
-.byte (36 * 4) + TOP_ROOM_LINK_BIT0,(20 * 4),(11 * 4),(6 * 4),(10 * 4),(34 * 4),(34 * 4),(36 * 4),(20 * 4),(11 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
+	.byte (36 * 4) + TOP_ROOM_LINK_BIT0,(20 * 4),(11 * 4),(6 * 4),(10 * 4),(34 * 4),(34 * 4),(36 * 4),(20 * 4),(11 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
         
         ;level 14 / l=16
-.byte (36 * 4),(20 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(20 * 4),(36 * 4),(20 * 4),(26 * 4),(33 * 4),(36 * 4),(34 * 4),(19 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4)
+	.byte (36 * 4),(20 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(20 * 4),(36 * 4),(20 * 4),(26 * 4),(33 * 4),(36 * 4),(34 * 4),(19 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4)
         
         ;level 15 / l=16
-.byte (36 * 4),(20 * 4),(26 * 4),(24 * 4),(8 * 4),(22 * 4),(32 * 4),(32 * 4),(32 * 4),(32 * 4),(20 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
+	.byte (36 * 4),(20 * 4),(26 * 4),(24 * 4),(8 * 4),(22 * 4),(32 * 4),(32 * 4),(32 * 4),(32 * 4),(20 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
         
         ;level 16 / l=16
-.byte (36 * 4),(6 * 4),(36 * 4),(30 * 4),(26 * 4),(5 * 4),(25 * 4),(34 * 4),(34 * 4),(34 * 4),(30 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4)
+	.byte (36 * 4),(6 * 4),(36 * 4),(30 * 4),(26 * 4),(5 * 4),(25 * 4),(34 * 4),(34 * 4),(34 * 4),(30 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4)
         
         ;level 17 / l=16
-.byte (36 * 4),(20 * 4),(10 * 4),(30 * 4),(34 * 4),(26 * 4),(19 * 4),(32 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(32 * 4),(25 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
+	.byte (36 * 4),(20 * 4),(10 * 4),(30 * 4),(34 * 4),(26 * 4),(19 * 4),(32 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(32 * 4),(25 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
         
         ;level 18 / l=16
-.byte (36 * 4),(20 * 4),(32 * 4),(31 * 4),(20 * 4),(32 * 4),(36 * 4),(15 * 4),(19 * 4),(19 * 4),(19 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4)
+	.byte (36 * 4),(20 * 4),(32 * 4),(31 * 4),(20 * 4),(32 * 4),(36 * 4),(15 * 4),(19 * 4),(19 * 4),(19 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4)
         
         ;level 19 / l=16
-.byte (36 * 4),(19 * 4),(28 * 4),(23 * 4),(9 * 4),(34 * 4),(19 * 4),(26 * 4),(27 * 4),(34 * 4),(30 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
+	.byte (36 * 4),(19 * 4),(28 * 4),(23 * 4),(9 * 4),(34 * 4),(19 * 4),(26 * 4),(27 * 4),(34 * 4),(30 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0,(36 * 4) + TOP_ROOM_LINK_BIT0
 	
         ;level 20 / l=16
-.byte (36 * 4),(19 * 4),(32 * 4),(34 * 4),(34 * 4),(34 * 4),(32 * 4),(28 * 4),(32 * 4),(32 * 4),(33 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4)
+	.byte (36 * 4),(19 * 4),(32 * 4),(34 * 4),(34 * 4),(34 * 4),(32 * 4),(28 * 4),(32 * 4),(32 * 4),(33 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4),(36 * 4)
         
         
 ;middle band objects
 MiddleBandObjectData
 
 	;level 1 / l=2
-.byte OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_0
+	.byte OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_0
         
 	;level 2 / l=4
-.byte OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_0,(14 * 4) + OBJ_TYPE_1,(27 * 4) + OBJ_TYPE_1
+	.byte OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_0,(14 * 4) + OBJ_TYPE_1,(27 * 4) + OBJ_TYPE_1
         
 	;level 3 / l=6
-.byte OBJ_HIDDEN_93,(11 * 4) + OBJ_TYPE_0,(12 * 4) + OBJ_TYPE_0,(26 * 4) + OBJ_TYPE_1,(16 * 4) + OBJ_TYPE_2,(10 * 4) + OBJ_TYPE_2
+	.byte OBJ_HIDDEN_93,(11 * 4) + OBJ_TYPE_0,(12 * 4) + OBJ_TYPE_0,(26 * 4) + OBJ_TYPE_1,(16 * 4) + OBJ_TYPE_2,(10 * 4) + OBJ_TYPE_2
         
 	;level 4 / l=8
-.byte OBJ_HIDDEN_93,(31 * 4) + OBJ_TYPE_0,(30 * 4) + OBJ_TYPE_1,(26 * 4) + OBJ_TYPE_3,(16 * 4) + OBJ_TYPE_2,(27 * 4) + OBJ_TYPE_0,(33 * 4) + OBJ_TYPE_0,(20 * 4) + OBJ_TYPE_3
+	.byte OBJ_HIDDEN_93,(31 * 4) + OBJ_TYPE_0,(30 * 4) + OBJ_TYPE_1,(26 * 4) + OBJ_TYPE_3,(16 * 4) + OBJ_TYPE_2,(27 * 4) + OBJ_TYPE_0,(33 * 4) + OBJ_TYPE_0,(20 * 4) + OBJ_TYPE_3
         
 	;level 5 / l=8
-.byte OBJ_HIDDEN_93,(5 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0,(5 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(10 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_2
+	.byte OBJ_HIDDEN_93,(5 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0,(5 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(10 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_2
         
 	;level 6 / l=10
-.byte OBJ_HIDDEN_93,(24 * 4) + OBJ_TYPE_1,(18 * 4) + OBJ_TYPE_1,(8 * 4) + OBJ_TYPE_2,(21 * 4) + OBJ_TYPE_2,(28 * 4) + OBJ_TYPE_1,(32 * 4) + OBJ_TYPE_1,(16 * 4) + OBJ_TYPE_1,(7 * 4) + OBJ_TYPE_2,(13 * 4) + OBJ_TYPE_0
+	.byte OBJ_HIDDEN_93,(24 * 4) + OBJ_TYPE_1,(18 * 4) + OBJ_TYPE_1,(8 * 4) + OBJ_TYPE_2,(21 * 4) + OBJ_TYPE_2,(28 * 4) + OBJ_TYPE_1,(32 * 4) + OBJ_TYPE_1,(16 * 4) + OBJ_TYPE_1,(7 * 4) + OBJ_TYPE_2,(13 * 4) + OBJ_TYPE_0
         
 	;level 7 / l=12
-.byte OBJ_HIDDEN_93,(13 * 4) + OBJ_TYPE_0,(22 * 4) + OBJ_TYPE_1,(10 * 4) + OBJ_TYPE_3,(8 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_0,(32 * 4) + OBJ_TYPE_0,(5 * 4) + OBJ_TYPE_3,(26 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0,(32 * 4) + OBJ_TYPE_1,(19 * 4) + OBJ_TYPE_1
+	.byte OBJ_HIDDEN_93,(13 * 4) + OBJ_TYPE_0,(22 * 4) + OBJ_TYPE_1,(10 * 4) + OBJ_TYPE_3,(8 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_0,(32 * 4) + OBJ_TYPE_0,(5 * 4) + OBJ_TYPE_3,(26 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0,(32 * 4) + OBJ_TYPE_1,(19 * 4) + OBJ_TYPE_1
         
 	;level 8 / l=14
-.byte OBJ_HIDDEN_93,(15 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(6 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(19 * 4) + OBJ_TYPE_0,(28 * 4) + OBJ_TYPE_0,(22 * 4) + OBJ_TYPE_3,(7 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(19 * 4) + OBJ_TYPE_0,(24 * 4) + OBJ_TYPE_3,(10 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0
+	.byte OBJ_HIDDEN_93,(15 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(6 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(19 * 4) + OBJ_TYPE_0,(28 * 4) + OBJ_TYPE_0,(22 * 4) + OBJ_TYPE_3,(7 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(19 * 4) + OBJ_TYPE_0,(24 * 4) + OBJ_TYPE_3,(10 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0
         
 	;level 9 / l=16
-.byte OBJ_HIDDEN_93,(7 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,OBJ_HIDDEN_93,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(23 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_1,(21 * 4) + OBJ_TYPE_0,(32 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(28 * 4) + OBJ_TYPE_0,(28 * 4) + OBJ_TYPE_0,(33 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0
+	.byte OBJ_HIDDEN_93,(7 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,OBJ_HIDDEN_93,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(23 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_1,(21 * 4) + OBJ_TYPE_0,(32 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(28 * 4) + OBJ_TYPE_0,(28 * 4) + OBJ_TYPE_0,(33 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0
         
 	;level 10 / l=16
-.byte OBJ_HIDDEN_93,(11 * 4) + OBJ_TYPE_2,(26 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(28 * 4) + OBJ_TYPE_3,(27 * 4) + OBJ_TYPE_3,(16 * 4) + OBJ_TYPE_2,(6 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(22 * 4) + OBJ_TYPE_1,(4 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(11 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_2
+	.byte OBJ_HIDDEN_93,(11 * 4) + OBJ_TYPE_2,(26 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(28 * 4) + OBJ_TYPE_3,(27 * 4) + OBJ_TYPE_3,(16 * 4) + OBJ_TYPE_2,(6 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(22 * 4) + OBJ_TYPE_1,(4 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(11 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_2
         
  	;level 11 / l=16
-.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_2,(5 * 4) + OBJ_TYPE_2,(28 * 4) + OBJ_TYPE_2,(12 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(23 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(15 * 4) + OBJ_TYPE_0,(23 * 4) + OBJ_TYPE_2,(31 * 4) + OBJ_TYPE_0,(23 * 4) + OBJ_TYPE_2,(30 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2
+	.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_2,(5 * 4) + OBJ_TYPE_2,(28 * 4) + OBJ_TYPE_2,(12 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(23 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(15 * 4) + OBJ_TYPE_0,(23 * 4) + OBJ_TYPE_2,(31 * 4) + OBJ_TYPE_0,(23 * 4) + OBJ_TYPE_2,(30 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2
         
 	;level 12 / l=16
-.byte OBJ_HIDDEN_93,(9 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0,(28 * 4) + OBJ_TYPE_0,(17 * 4) + OBJ_TYPE_2,(22 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(29 * 4) + OBJ_TYPE_2,(10 * 4) + OBJ_TYPE_0,(4 * 4) + OBJ_TYPE_2,(4 * 4) + OBJ_TYPE_0,(4 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_3,(8 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(16 * 4) + OBJ_TYPE_2
+	.byte OBJ_HIDDEN_93,(9 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0,(28 * 4) + OBJ_TYPE_0,(17 * 4) + OBJ_TYPE_2,(22 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(29 * 4) + OBJ_TYPE_2,(10 * 4) + OBJ_TYPE_0,(4 * 4) + OBJ_TYPE_2,(4 * 4) + OBJ_TYPE_0,(4 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_3,(8 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(16 * 4) + OBJ_TYPE_2
         
 	;level 13 / l=16
-.byte OBJ_HIDDEN_93,(5 * 4) + OBJ_TYPE_0,(12 * 4) + OBJ_TYPE_2,(8 * 4) + OBJ_TYPE_2,(21 * 4) + OBJ_TYPE_2,(32 * 4) + OBJ_TYPE_1,(34 * 4) + OBJ_TYPE_1,(10 * 4) + OBJ_TYPE_2,(14 * 4) + OBJ_TYPE_0,(4 * 4) + OBJ_TYPE_2,(24 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_0,(4 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(16 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_2
+	.byte OBJ_HIDDEN_93,(5 * 4) + OBJ_TYPE_0,(12 * 4) + OBJ_TYPE_2,(8 * 4) + OBJ_TYPE_2,(21 * 4) + OBJ_TYPE_2,(32 * 4) + OBJ_TYPE_1,(34 * 4) + OBJ_TYPE_1,(10 * 4) + OBJ_TYPE_2,(14 * 4) + OBJ_TYPE_0,(4 * 4) + OBJ_TYPE_2,(24 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_0,(4 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(16 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_2
         
 	;level 14 / l=16
-.byte OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_2,(23 * 4) + OBJ_TYPE_2,(18 * 4) + OBJ_TYPE_1,(27 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(30 * 4) + OBJ_TYPE_0,(34 * 4) + OBJ_TYPE_1,(12 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_0,(17 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2,(13 * 4) + OBJ_TYPE_1,(9 * 4) + OBJ_TYPE_0,(27 * 4) + OBJ_TYPE_0,(22 * 4) + OBJ_TYPE_1
+	.byte OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_2,(23 * 4) + OBJ_TYPE_2,(18 * 4) + OBJ_TYPE_1,(27 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(30 * 4) + OBJ_TYPE_0,(34 * 4) + OBJ_TYPE_1,(12 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_0,(17 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2,(13 * 4) + OBJ_TYPE_1,(9 * 4) + OBJ_TYPE_0,(27 * 4) + OBJ_TYPE_0,(22 * 4) + OBJ_TYPE_1
         
 	;level 15 / l=16
-.byte OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_2,(14 * 4) + OBJ_TYPE_1,(14 * 4) + OBJ_TYPE_2,(8 * 4) + OBJ_TYPE_1,(19 * 4) + OBJ_TYPE_1,(6 * 4) + OBJ_TYPE_0,(6 * 4) + OBJ_TYPE_1,(6 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(22 * 4) + OBJ_TYPE_1,(8 * 4) + OBJ_TYPE_2,(12 * 4) + OBJ_TYPE_3,(26 * 4) + OBJ_TYPE_3,(15 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0
+	.byte OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_2,(14 * 4) + OBJ_TYPE_1,(14 * 4) + OBJ_TYPE_2,(8 * 4) + OBJ_TYPE_1,(19 * 4) + OBJ_TYPE_1,(6 * 4) + OBJ_TYPE_0,(6 * 4) + OBJ_TYPE_1,(6 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(22 * 4) + OBJ_TYPE_1,(8 * 4) + OBJ_TYPE_2,(12 * 4) + OBJ_TYPE_3,(26 * 4) + OBJ_TYPE_3,(15 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0
         
 	;level 16 / l=16
-.byte OBJ_HIDDEN_93,(34 * 4) + OBJ_TYPE_1,(9 * 4) + OBJ_TYPE_2,(21 * 4) + OBJ_TYPE_0,(11 * 4) + OBJ_TYPE_1,(14 * 4) + OBJ_TYPE_1,(28 * 4) + OBJ_TYPE_0,(12 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(27 * 4) + OBJ_TYPE_2,(8 * 4) + OBJ_TYPE_0,(27 * 4) + OBJ_TYPE_2,(8 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2,(14 * 4) + OBJ_TYPE_0
+	.byte OBJ_HIDDEN_93,(34 * 4) + OBJ_TYPE_1,(9 * 4) + OBJ_TYPE_2,(21 * 4) + OBJ_TYPE_0,(11 * 4) + OBJ_TYPE_1,(14 * 4) + OBJ_TYPE_1,(28 * 4) + OBJ_TYPE_0,(12 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(27 * 4) + OBJ_TYPE_2,(8 * 4) + OBJ_TYPE_0,(27 * 4) + OBJ_TYPE_2,(8 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2,(14 * 4) + OBJ_TYPE_0
         
 	;level 17 / l=16
-.byte OBJ_HIDDEN_93,(11 * 4) + OBJ_TYPE_2,(32 * 4) + OBJ_TYPE_0,(20 * 4) + OBJ_TYPE_2,(18 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_1,(12 * 4) + OBJ_TYPE_2,(25 * 4) + OBJ_TYPE_2,(30 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_2,(30 * 4) + OBJ_TYPE_0,(7 * 4) + OBJ_TYPE_2,(14 * 4) + OBJ_TYPE_1,(6 * 4) + OBJ_TYPE_0,(11 * 4) + OBJ_TYPE_2
+	.byte OBJ_HIDDEN_93,(11 * 4) + OBJ_TYPE_2,(32 * 4) + OBJ_TYPE_0,(20 * 4) + OBJ_TYPE_2,(18 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_1,(12 * 4) + OBJ_TYPE_2,(25 * 4) + OBJ_TYPE_2,(30 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_2,(30 * 4) + OBJ_TYPE_0,(7 * 4) + OBJ_TYPE_2,(14 * 4) + OBJ_TYPE_1,(6 * 4) + OBJ_TYPE_0,(11 * 4) + OBJ_TYPE_2
         
 	;level 18 / l=16
-.byte OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_2,(34 * 4) + OBJ_TYPE_0,(11 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(26 * 4) + OBJ_TYPE_2,(9 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(28 * 4) + OBJ_TYPE_2,(21 * 4) + OBJ_TYPE_2,(9 * 4) + OBJ_TYPE_0,(8 * 4) + OBJ_TYPE_0,(24 * 4) + OBJ_TYPE_0,(34 * 4) + OBJ_TYPE_0,(10 * 4) + OBJ_TYPE_2
+	.byte OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_2,(34 * 4) + OBJ_TYPE_0,(11 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(26 * 4) + OBJ_TYPE_2,(9 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(28 * 4) + OBJ_TYPE_2,(21 * 4) + OBJ_TYPE_2,(9 * 4) + OBJ_TYPE_0,(8 * 4) + OBJ_TYPE_0,(24 * 4) + OBJ_TYPE_0,(34 * 4) + OBJ_TYPE_0,(10 * 4) + OBJ_TYPE_2
         
 	;level 19 / l=16
-.byte OBJ_HIDDEN_93,(13 * 4) + OBJ_TYPE_2,(27 * 4) + OBJ_TYPE_2,(8 * 4) + OBJ_TYPE_1,(32 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(11 * 4) + OBJ_TYPE_2,(16 * 4) + OBJ_TYPE_3,(22 * 4) + OBJ_TYPE_0,(15 * 4) + OBJ_TYPE_3,(29 * 4) + OBJ_TYPE_1,(5 * 4) + OBJ_TYPE_1,(8 * 4) + OBJ_TYPE_2,(10 * 4) + OBJ_TYPE_0,(24 * 4) + OBJ_TYPE_2
+	.byte OBJ_HIDDEN_93,(13 * 4) + OBJ_TYPE_2,(27 * 4) + OBJ_TYPE_2,(8 * 4) + OBJ_TYPE_1,(32 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(11 * 4) + OBJ_TYPE_2,(16 * 4) + OBJ_TYPE_3,(22 * 4) + OBJ_TYPE_0,(15 * 4) + OBJ_TYPE_3,(29 * 4) + OBJ_TYPE_1,(5 * 4) + OBJ_TYPE_1,(8 * 4) + OBJ_TYPE_2,(10 * 4) + OBJ_TYPE_0,(24 * 4) + OBJ_TYPE_2
         
 	;level 20 / l=16
-.byte OBJ_HIDDEN_93,(13 * 4) + OBJ_TYPE_2,(8 * 4) + OBJ_TYPE_1,(28 * 4) + OBJ_TYPE_3,(14 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(4 * 4) + OBJ_TYPE_2,(12 * 4) + OBJ_TYPE_1,(12 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(34 * 4) + OBJ_TYPE_0,(8 * 4) + OBJ_TYPE_1,(7 * 4) + OBJ_TYPE_2,(9 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2,(6 * 4) + OBJ_TYPE_2
+	.byte OBJ_HIDDEN_93,(13 * 4) + OBJ_TYPE_2,(8 * 4) + OBJ_TYPE_1,(28 * 4) + OBJ_TYPE_3,(14 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(4 * 4) + OBJ_TYPE_2,(12 * 4) + OBJ_TYPE_1,(12 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(34 * 4) + OBJ_TYPE_0,(8 * 4) + OBJ_TYPE_1,(7 * 4) + OBJ_TYPE_2,(9 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2,(6 * 4) + OBJ_TYPE_2
 
 
 ;bottom band objects        
 BottomBandObjectData
 
 	;level 1 / l=2
-.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93
         
         ;level 2 / l=4
-.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(20 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(20 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93
         
         ;level 3 / l=6
-.byte OBJ_HIDDEN_93,(17 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,(17 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,OBJ_HIDDEN_93
         
         ;level 4 / l= 8
-.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(19 * 4) + OBJ_TYPE_0,(6 * 4) + OBJ_TYPE_0,(16 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0,(20 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(19 * 4) + OBJ_TYPE_0,(6 * 4) + OBJ_TYPE_0,(16 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_0,(20 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93
         
         ;level 5 / l= 8
-.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(23 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(30 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,(28 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(23 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(30 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,(28 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93
         
         ;level 6 / l = 10
-.byte OBJ_HIDDEN_93,(6 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_0,(24 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(15 * 4) + OBJ_TYPE_0,(6 * 4) + OBJ_TYPE_0,(26 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,(6 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_0,(24 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(15 * 4) + OBJ_TYPE_0,(6 * 4) + OBJ_TYPE_0,(26 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,OBJ_HIDDEN_93
         
         ;level 7 / l = 12
-.byte OBJ_HIDDEN_93,(17 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(4 * 4) + OBJ_TYPE_3,(28 * 4) + OBJ_TYPE_2,(6 * 4) + OBJ_TYPE_1,(20 * 4) + OBJ_TYPE_0,(26 * 4) + OBJ_TYPE_0,(30 * 4) + OBJ_TYPE_0,(18 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,(17 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(4 * 4) + OBJ_TYPE_3,(28 * 4) + OBJ_TYPE_2,(6 * 4) + OBJ_TYPE_1,(20 * 4) + OBJ_TYPE_0,(26 * 4) + OBJ_TYPE_0,(30 * 4) + OBJ_TYPE_0,(18 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93
         
         ;level 8 / l = 14
-.byte OBJ_HIDDEN_93,(20 * 4) + OBJ_TYPE_0,(20 * 4) + OBJ_TYPE_0,(26 * 4) + OBJ_TYPE_0,(6 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(24 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(13 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,(20 * 4) + OBJ_TYPE_0,(20 * 4) + OBJ_TYPE_0,(26 * 4) + OBJ_TYPE_0,(6 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(24 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(13 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93
         
         ;level 9 / l = 16
-.byte OBJ_HIDDEN_93,(31 * 4) + OBJ_TYPE_0,(14 * 4) + OBJ_TYPE_0,(15 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(14 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(6 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_3,(20 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,(31 * 4) + OBJ_TYPE_0,(14 * 4) + OBJ_TYPE_0,(15 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(14 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(6 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_3,(20 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,OBJ_HIDDEN_93
         
         ;level 10 / l = 16
-.byte OBJ_HIDDEN_93,(6 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(7 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_0,(32 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(9 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,(6 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(7 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_0,(32 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(9 * 4) + OBJ_TYPE_2,(15 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93
         
         ;level 11 / l =16
-.byte OBJ_HIDDEN_93,(14 * 4) + OBJ_TYPE_0,(33 * 4) + OBJ_TYPE_1,(20 * 4) + OBJ_TYPE_0,(5 * 4) + OBJ_TYPE_0,(5 * 4) + OBJ_TYPE_1,(13 * 4) + OBJ_TYPE_2,(16 * 4) + OBJ_TYPE_1,(19 * 4) + OBJ_TYPE_1,(25 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(27 * 4) + OBJ_TYPE_1,(15 * 4) + OBJ_TYPE_0,(25 * 4) + OBJ_TYPE_0,(8 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,(14 * 4) + OBJ_TYPE_0,(33 * 4) + OBJ_TYPE_1,(20 * 4) + OBJ_TYPE_0,(5 * 4) + OBJ_TYPE_0,(5 * 4) + OBJ_TYPE_1,(13 * 4) + OBJ_TYPE_2,(16 * 4) + OBJ_TYPE_1,(19 * 4) + OBJ_TYPE_1,(25 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(27 * 4) + OBJ_TYPE_1,(15 * 4) + OBJ_TYPE_0,(25 * 4) + OBJ_TYPE_0,(8 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93
         
         ;level 12 / l = 16
-.byte OBJ_HIDDEN_93,(31 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_1,(16 * 4) + OBJ_TYPE_3,(10 * 4) + OBJ_TYPE_0,(22 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(13 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_2,(23 * 4) + OBJ_TYPE_1,(21 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,(25 * 4) + OBJ_TYPE_0,(15 * 4) + OBJ_TYPE_0,(12 * 4) + OBJ_TYPE_2
+	.byte OBJ_HIDDEN_93,(31 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_1,(16 * 4) + OBJ_TYPE_3,(10 * 4) + OBJ_TYPE_0,(22 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(13 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_2,(23 * 4) + OBJ_TYPE_1,(21 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,(25 * 4) + OBJ_TYPE_0,(15 * 4) + OBJ_TYPE_0,(12 * 4) + OBJ_TYPE_2
         
         ;level 13 / l = 16
-.byte OBJ_HIDDEN_93,(27 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(34 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(20 * 4) + OBJ_TYPE_1,(27 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(15 * 4) + OBJ_TYPE_1,(24 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(23 * 4) + OBJ_TYPE_2,(25 * 4) + OBJ_TYPE_1,(15 * 4) + OBJ_TYPE_2
+	.byte OBJ_HIDDEN_93,(27 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(34 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(20 * 4) + OBJ_TYPE_1,(27 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(15 * 4) + OBJ_TYPE_1,(24 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(23 * 4) + OBJ_TYPE_2,(25 * 4) + OBJ_TYPE_1,(15 * 4) + OBJ_TYPE_2
         
         ;level 14 / l = 16
-.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_3,(12 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(9 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(5 * 4) + OBJ_TYPE_2,(23 * 4) + OBJ_TYPE_2,(17 * 4) + OBJ_TYPE_0,(20 * 4) + OBJ_TYPE_3,(16 * 4) + OBJ_TYPE_2,(23 * 4) + OBJ_TYPE_0
+	.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_3,(12 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(9 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(5 * 4) + OBJ_TYPE_2,(23 * 4) + OBJ_TYPE_2,(17 * 4) + OBJ_TYPE_0,(20 * 4) + OBJ_TYPE_3,(16 * 4) + OBJ_TYPE_2,(23 * 4) + OBJ_TYPE_0
         
         ;level 15 / l = 16
-.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(26 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_3,(22 * 4) + OBJ_TYPE_3,(15 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_1
+	.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(26 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(10 * 4) + OBJ_TYPE_2,(20 * 4) + OBJ_TYPE_3,(22 * 4) + OBJ_TYPE_3,(15 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_1
         
         ;level 16 / l = 16
-.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(31 * 4) + OBJ_TYPE_3,(13 * 4) + OBJ_TYPE_2,(16 * 4) + OBJ_TYPE_2,(24 * 4) + OBJ_TYPE_0,(24 * 4) + OBJ_TYPE_1,(24 * 4) + OBJ_TYPE_1,(19 * 4) + OBJ_TYPE_1,(23 * 4) + OBJ_TYPE_0,(7 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(23 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(31 * 4) + OBJ_TYPE_3,(13 * 4) + OBJ_TYPE_2,(16 * 4) + OBJ_TYPE_2,(24 * 4) + OBJ_TYPE_0,(24 * 4) + OBJ_TYPE_1,(24 * 4) + OBJ_TYPE_1,(19 * 4) + OBJ_TYPE_1,(23 * 4) + OBJ_TYPE_0,(7 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(23 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93
         
         ;level 17 / l = 16
-.byte OBJ_HIDDEN_93,(32 * 4) + OBJ_TYPE_1,(8 * 4) + OBJ_TYPE_1,(20 * 4) + OBJ_TYPE_2,(18 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(6 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(23 * 4) + OBJ_TYPE_2,(16 * 4) + OBJ_TYPE_0,(4 * 4) + OBJ_TYPE_3,(11 * 4) + OBJ_TYPE_2,(25 * 4) + OBJ_TYPE_1,(20 * 4) + OBJ_TYPE_3,(11 * 4) + OBJ_TYPE_0,(28 * 4) + OBJ_TYPE_0
+	.byte OBJ_HIDDEN_93,(32 * 4) + OBJ_TYPE_1,(8 * 4) + OBJ_TYPE_1,(20 * 4) + OBJ_TYPE_2,(18 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,(6 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(23 * 4) + OBJ_TYPE_2,(16 * 4) + OBJ_TYPE_0,(4 * 4) + OBJ_TYPE_3,(11 * 4) + OBJ_TYPE_2,(25 * 4) + OBJ_TYPE_1,(20 * 4) + OBJ_TYPE_3,(11 * 4) + OBJ_TYPE_0,(28 * 4) + OBJ_TYPE_0
         
         ;level 18 / l = 16
-.byte OBJ_HIDDEN_93,(6 * 4) + OBJ_TYPE_1,(26 * 4) + OBJ_TYPE_3,(20 * 4) + OBJ_TYPE_1,(4 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,(9 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(23 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(13 * 4) + OBJ_TYPE_1,(17 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,(6 * 4) + OBJ_TYPE_1,(26 * 4) + OBJ_TYPE_3,(20 * 4) + OBJ_TYPE_1,(4 * 4) + OBJ_TYPE_3,OBJ_HIDDEN_93,(9 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93,OBJ_HIDDEN_93,(12 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(23 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(13 * 4) + OBJ_TYPE_1,(17 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93
         
         ;level 19 / l = 16
-.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(15 * 4) + OBJ_TYPE_2,(29 * 4) + OBJ_TYPE_2,(34 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_0,(12 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2,(13 * 4) + OBJ_TYPE_1,(29 * 4) + OBJ_TYPE_0,(11 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(25 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(26 * 4) + OBJ_TYPE_1
+	.byte OBJ_HIDDEN_93,OBJ_HIDDEN_93,(15 * 4) + OBJ_TYPE_2,(29 * 4) + OBJ_TYPE_2,(34 * 4) + OBJ_TYPE_1,OBJ_HIDDEN_93,(16 * 4) + OBJ_TYPE_0,(12 * 4) + OBJ_TYPE_1,(11 * 4) + OBJ_TYPE_2,(13 * 4) + OBJ_TYPE_1,(29 * 4) + OBJ_TYPE_0,(11 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(25 * 4) + OBJ_TYPE_0,OBJ_HIDDEN_93,(26 * 4) + OBJ_TYPE_1
         
         ;level 20 / l = 16
-.byte OBJ_HIDDEN_93,(32 * 4) + OBJ_TYPE_0,(24 * 4) + OBJ_TYPE_2,(10 * 4) + OBJ_TYPE_0,(14 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(28 * 4) + OBJ_TYPE_0,(26 * 4) + OBJ_TYPE_2,(24 * 4) + OBJ_TYPE_2,(28 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(28 * 4) + OBJ_TYPE_0,(25 * 4) + OBJ_TYPE_2,(26 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93
+	.byte OBJ_HIDDEN_93,(32 * 4) + OBJ_TYPE_0,(24 * 4) + OBJ_TYPE_2,(10 * 4) + OBJ_TYPE_0,(14 * 4) + OBJ_TYPE_2,(11 * 4) + OBJ_TYPE_2,(28 * 4) + OBJ_TYPE_0,(26 * 4) + OBJ_TYPE_2,(24 * 4) + OBJ_TYPE_2,(28 * 4) + OBJ_TYPE_0,(19 * 4) + OBJ_TYPE_2,(19 * 4) + OBJ_TYPE_0,(28 * 4) + OBJ_TYPE_0,(25 * 4) + OBJ_TYPE_2,(26 * 4) + OBJ_TYPE_2,OBJ_HIDDEN_93
 
 
 ;--- playfield in 3 display bands
@@ -4961,3 +4961,4 @@ Bank1
 ;**************************
 ; end
 ;**************************
+
